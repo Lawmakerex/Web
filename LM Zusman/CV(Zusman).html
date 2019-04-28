@@ -1,0 +1,223 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		 <link rel="stylesheet" type="text/css" href="Gil.css" />
+		 
+		    <style>
+			
+	
+</style>
+    </head>
+
+    <body>
+	
+	<div id = "bar" style="font-family:Tangerine; color:white; text-align:center; font-size:50px;"> Marshall Lawrence M</div>
+	
+    <img src="icons/al.png"height="120px" alt="Image" align = "left" id="loader-image"></img>
+	<img src="icons/Welcome.png" height="120px" alt="Image" id="Welcome" style="position:relative; left:36%;"></img>
+	<br /><br />
+		<div class="background-wrap">
+			<video id="video-bg-elem" preload="auto" autoplay="true" loop="loop" muted="muted"> 
+				<source src="bg/dp.mp4" type="video/mp4">
+				
+			</video>          
+		</div>
+		
+		
+		<div id="text-container">
+              <div class="container">
+            <div class="quote-container">
+                <a href="#" class="quote-button">General Info</a>
+                <blockquote id="bl">Date of Conception: 2/9/1990 <br />
+Place: Trade District , <br />
+Land: Holy Land<br />
+City:Spring Hills<br />
+ID: 327068565<br />
+ </blockquote>
+				
+				
+				   <div class="quote-container1">
+                <a href="#" class="quote-button1">About Self</a>
+                <blockquote id="bl2">I have extensive experience in managing and leading a party and 
+the motivation of internal and external factors.
+I have a wide range of skills including mastery in 
+communication and a high, thorough, strategic and professional raiding experience.<br />
+With quick absorption and understanding in a short period of time or the situations and the 
+tasks at hand.<br /> Will fight my way through all obstacles and trials and will accomplish every mission
+No matter the foe before me </blockquote>
+				
+				 <div class="quote-container2">
+                <a href="#" class="quote-button2">Military Services</a>
+                <blockquote id="bl3">Served in Stormwind's Lion Guard, with the rank of Marshall<br />
+Ground equipment Supervisor for Griffons and missile systems<br />
+• Head of a motorized and mechanical department,<br />
+• Head of Knowledge source in the Technological unit<br />
+• Head of the Deployment and Infrastructure Division of the Missile Test Unit <br />
+ </blockquote>
+				
+				   <div class="quote-container3">
+                <a href="#" class="quote-button3">Education</a>
+                <blockquote id="bl4">High school education - full maturity.<br />
+2016-2019: Studying software engineering degree in reading for engineering studies<br />
+2020-2024: BA in Software Engineering<br />
+2026-2030: Ph.D in Explosive Philosophies <br /></blockquote>
+				 
+				    <div class="quote-container4">
+                <a href="#" class="quote-button4">Languages:</a>
+                <blockquote id="bl5">English : Native speaker<br />
+				Speaker of multiple elvish dialects<br />
+Hebrew: Native<br />
+French: Good<br />
+Japanese: Excellent<br />
+German: Good<br />
+</blockquote>
+				
+				   <div class="quote-container5">
+                <a href="#" class="quote-button5">Work Experience:</a>
+                <blockquote id="bl6">Knowledge / background in repair and maintenance of computers in various organization<br />
+Knowledge in building websites (html / css)<br />
+Graphic design knowledge (photoshop, sony vegas)<br />
+In language learning (c, c ++, Java, SQL)<br />
+Computer knowledge in the organization (office experience and knowledge in Office, Outlook, enterprise computer systems, etc.)<br />
+2 years as deputy director of program support at Motorola Solutions<br />
+1 year experience in development department at Motorola<br />
+3 years in department of software development in Intel,<br />
+3 years senior software engineer in intel<br />
+4 years head of graphical development team in Blizzard Entertainment<br />
+2 years senior Dev ops in Blizzard entertainment<br />
+ </blockquote>
+				
+            </div>
+        </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<iframe style="position: relative; right:-65%; top:10%;" width="560" height="315" src="https://www.youtube.com/embed/BcmStWjZK6E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+
+
+	<audio autoplay id="myaudio">
+  <source src="bg/diabl2o.mp3">
+</audio>
+
+
+
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script type="text/javascript">
+            
+            (function(){
+                
+                var quoteButton = $('.quote-button'),
+                    blockquote = $('#bl');
+                
+                quoteButton.on('click', function(e) {
+                    e.preventDefault();
+                    var quoteButtonText = quoteButton.text();
+                    
+                    blockquote.slideToggle(400, function(){
+                        quoteButtonText == "Show less" ? quoteButton.text("General Info") : quoteButton.text("Show less");
+                    });
+    
+                });
+            })();
+			
+			
+            (function(){
+                
+                var quoteButton = $('.quote-button1'),
+                    blockquote = $('#bl2');
+                
+                quoteButton.on('click', function(e) {
+                    e.preventDefault();
+                    var quoteButtonText = quoteButton.text();
+                    
+                    blockquote.slideToggle(400, function(){
+                        quoteButtonText == "Show less" ? quoteButton.text("About Self") : quoteButton.text("Show less");
+                    });
+    
+                });
+            })();
+			
+			
+			(function(){
+                
+                var quoteButton = $('.quote-button2'),
+                    blockquote = $('#bl3');
+                
+                quoteButton.on('click', function(e) {
+                    e.preventDefault();
+                    var quoteButtonText = quoteButton.text();
+                    
+                    blockquote.slideToggle(400, function(){
+                        quoteButtonText == "Show less" ? quoteButton.text("Military Services ") : quoteButton.text("Show less");
+                    });
+    
+                });
+            })();
+			
+			
+			
+			(function(){
+                
+                var quoteButton = $('.quote-button3'),
+                    blockquote = $('#bl4');
+                
+                quoteButton.on('click', function(e) {
+                    e.preventDefault();
+                    var quoteButtonText = quoteButton.text();
+                    
+                    blockquote.slideToggle(400, function(){
+                        quoteButtonText == "Show less" ? quoteButton.text(" Education") : quoteButton.text("Show less");
+                    });
+    
+                });
+            })();
+			
+			
+			(function(){
+                
+                var quoteButton = $('.quote-button4'),
+                    blockquote = $('#bl5');
+                
+                quoteButton.on('click', function(e) {
+                    e.preventDefault();
+                    var quoteButtonText = quoteButton.text();
+                    
+                    blockquote.slideToggle(400, function(){
+                        quoteButtonText == "Show less" ? quoteButton.text("Languages:") : quoteButton.text("Show less");
+                    });
+    
+                });
+            })();
+			
+			
+			(function(){
+                
+                var quoteButton = $('.quote-button5'),
+                    blockquote = $('#bl6');
+                
+                quoteButton.on('click', function(e) {
+                    e.preventDefault();
+                    var quoteButtonText = quoteButton.text();
+                    
+                    blockquote.slideToggle(400, function(){
+                        quoteButtonText == "Show less" ? quoteButton.text("Work Experience:") : quoteButton.text("Show less");
+                    });
+    
+                });
+            })();
+$("#Welcome").fadeIn(3300);
+$("#Welcome").fadeOut(3300,function() {$("#bar").fadeIn(3300,
+function() {$("#loader-image").fadeIn(3300,function() {$("#text-container").fadeIn(3500);});});});
+
+  var audio = document.getElementById("myaudio");
+  audio.volume = 0.6;
+	</script>
+	</body>
+</html>
+
